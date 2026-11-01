@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Melichar — Brutalist Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700;900&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="portfolio-container">
+        
+        <div class="main-layout">
+
+            <!-- 1. FIXIERTE SIDEBAR -->
+            <aside class="navigation-sidebar">
+                <div class="profile-wrapper">
+                    <img src="./img/logo7.jpg" alt="Profilbild Daniel Melichar" class="profile-pic" onerror="this.src='https://via.placeholder.com/200'">
+                </div>
+
+                <nav class="portfolio-nav">
+                    <ul>
+                        <li class="nav-item active">
+                            <a href="#ueber-mich">
+                                <img src="./img/web-icon_2.png" alt="Icon" class="nav-icon"> Über mich
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#referenzen">
+                                <img src="./img/web-icon_2.png" alt="Icon" class="nav-icon"> Referenzen
+                            </a>
+                        </li>
+                              <li class="nav-item">
+                            <a href="#blog">
+                                <img src="./img/web-icon_2.png" alt="Icon" class="nav-icon"> Templates
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#blog">
+                                <img src="./img/web-icon_2.png" alt="Icon" class="nav-icon"> Blog
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="sidebar-quote-box">
+                    <span>"REVOLUTION IST GROSSARTIG, ALLES ANDERE IST QUARK!"</span>
+                </div>
+
+                <div class="social-icons-wrapper">
+                    <a href="https://facebook.com" target="_blank" class="social-icon-btn" title="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="social-icon-btn" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank" class="social-icon-btn" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com" target="_blank" class="social-icon-btn" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </aside>
+
+            <!-- 2. HAUPTINHALT -->
+            <main class="content-area">
+
+                <section id="ueber-mich" class="content-section">
+                    <h2 class="section-title">
+                        <span>Über mich</span>
+                        <span class="text-accent">01 //</span>
+                    </h2>
+
+                    <div class="about-content-box">
+                        <h3 class="sub-title">Daniel Melichar — Minimalist & Web-Entwickler</h3>
+                        <p class="box-text">
+                            Willkommen auf meinem Portfolio. Ich entwickle leichtgewichtige, performante Webanwendungen mit Fokus auf klare Strukturen, barrierefreie Schnittstellen und funktionalen Brutalismus. Keine überflüssigen Frameworks – nur sauberer, durchdachter Code.
+                        </p>
+
+                        <div class="skill-widget">
+                            <div class="skill-row">
+                                <div class="skill-meta">
+                                    <span>HTML5 / CSS3 / Brutalism</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="skill-track">
+                                    <div class="skill-fill" style="width: 95%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-row">
+                                <div class="skill-meta">
+                                    <span>JavaScript (Vanilla / PHP Native)</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-track">
+                                    <div class="skill-fill" style="width: 85%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-row">
+                                <div class="skill-meta">
+                                    <span>Fotografie & Komposition</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="skill-track">
+                                    <div class="skill-fill" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <section id="referenzen" class="content-section">
+                    <h2 class="section-title">
+                        <span>Referenzen</span>
+                        <span class="text-accent">02 //</span>
+                    </h2>
+
+                    <div class="references-grid">
+                        <div class="reference-card">
+                            <div class="card-img-wrapper">
+                                <img src="img/ref1.jpg" alt="Projekt 1" loading="lazy">
+                            </div>
+                            <div class="card-title">
+                                <span>Minimal-Web</span>
+                                <i class="fa-solid fa-bookmark text-accent"></i>
+                            </div>
+                            <p class="card-desc">Entwicklung eines schlanken System-Katalogs ohne schwere Frameworks.</p>
+                            <div class="card-meta">
+                                <span>2026</span>
+                                <span>Webdesign</span>
+                            </div>
+                        </div>
+
+                        <div class="reference-card">
+                            <div class="card-img-wrapper">
+                                <img src="https://placehold.co/600x450/222222/ffffff?text=Fotografie" alt="Projekt 2" loading="lazy">
+                            </div>
+                            <div class="card-title">
+                                <span>Monochrome Serie</span>
+                                <i class="fa-solid fa-bookmark text-accent"></i>
+                            </div>
+                            <p class="card-desc">S/W-Architekturfotografie aus städtischen Räumen Mitteldeutschlands.</p>
+                            <div class="card-meta">
+                                <span>2026</span>
+                                <span>Fotografie</span>
+                            </div>
+                        </div>
+
+                        <div class="reference-card">
+                            <div class="card-img-wrapper">
+                                <img src="https://placehold.co/600x450/333333/ffffff?text=Sound+Design" alt="Projekt 3" loading="lazy">
+                            </div>
+                            <div class="card-title">
+                                <span>Modular Synth</span>
+                                <i class="fa-solid fa-bookmark text-accent"></i>
+                            </div>
+                            <p class="card-desc">Generative Audio-Konzepte und manuelle Synthesizer-Patchings.</p>
+                            <div class="card-meta">
+                                <span>2025</span>
+                                <span>Audio</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SEKTION 3: BLOG (MIT GEFIXTER FILTER- & ANIMATIONSLOGIK) -->
+                <section id="blog" class="content-section">
+                    <h2 class="section-title">
+                        <span>Blog</span>
+                        <span class="text-accent">03 //</span>
+                    </h2>
+
+                    <div class="blog-controls">
+                        <ul class="filter-menu">
+                            <li class="filter-btn active" data-filter="all">Alle</li>
+                            <li class="filter-btn" data-filter="web">Webdesign</li>
+                            <li class="filter-btn" data-filter="fotografie">Fotografie</li>
+                            <li class="filter-btn" data-filter="musik">Musik</li>
+                        </ul>
+
+                        <select id="sort-select" class="sort-select">
+                            <option value="date-desc">Neueste zuerst</option>
+                            <option value="date-asc">Älteste zuerst</option>
+                            <option value="title-asc">Titel (A–Z)</option>
+                            <option value="title-desc">Titel (Z–A)</option>
+                        </select>
+                    </div>
+
+                    <div class="blog-list" id="blog-list">
+                        
+                        <a href="#" class="blog-item" data-category="web" data-date="2026-10-15" data-title="Warum der Verzicht auf schwere JS-Frameworks befreit" onclick="event.preventDefault();">
+                            <div class="blog-thumbnail-wrapper">
+                                <img src="https://placehold.co/200x200/111111/ffffff?text=Code" alt="Blog Preview 1" loading="lazy">
+                            </div>
+                            <div class="blog-item-content">
+                                <span class="blog-date">15. OKTOBER 2026</span>
+                                <h3 class="blog-title">Warum der Verzicht auf schwere JS-Frameworks befreit</h3>
+                                <p class="blog-snippet">Ein Plädoyer für einfaches HTML, natives CSS und serverseitige PHP-Includes zur Vermeidung von SPA-Overhead.</p>
+                                <div class="blog-footer-row">
+                                    <span style="font-size: 0.6rem; font-weight:700; color:#888;">WEBDESIGN</span>
+                                    <i class="fa-solid fa-arrow-right blog-arrow"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#" class="blog-item" data-category="fotografie" data-date="2026-10-02" data-title="S/W-Fotografie: Emotionen durch Kontrast" onclick="event.preventDefault();">
+                            <div class="blog-thumbnail-wrapper">
+                                <img src="https://placehold.co/200x200/222222/ffffff?text=Foto" alt="Blog Preview 2" loading="lazy">
+                            </div>
+                            <div class="blog-item-content">
+                                <span class="blog-date">02. OKTOBER 2026</span>
+                                <h3 class="blog-title">S/W-Fotografie: Emotionen durch Kontrast</h3>
+                                <p class="blog-snippet">Wie Licht, Schatten und Geometrie in der visuellen Gestaltung zusammenwirken.</p>
+                                <div class="blog-footer-row">
+                                    <span style="font-size: 0.6rem; font-weight:700; color:#888;">FOTOGRAFIE</span>
+                                    <i class="fa-solid fa-arrow-right blog-arrow"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#" class="blog-item" data-category="web" data-date="2026-09-28" data-title="Kreative Prozesse & Brutalismus im Web" onclick="event.preventDefault();">
+                            <div class="blog-thumbnail-wrapper">
+                                <img src="https://placehold.co/200x200/333333/ffffff?text=Kreativ" alt="Blog Preview 3" loading="lazy">
+                            </div>
+                            <div class="blog-item-content">
+                                <span class="blog-date">28. SEPTEMBER 2026</span>
+                                <h3 class="blog-title">Kreative Prozesse & Brutalismus im Web</h3>
+                                <p class="blog-snippet">Klare Kanten, ehrlicher Content und responsive Schriftgrößen im modernen Webdesign.</p>
+                                <div class="blog-footer-row">
+                                    <span style="font-size: 0.6rem; font-weight:700; color:#888;">WEBDESIGN</span>
+                                    <i class="fa-solid fa-arrow-right blog-arrow"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#" class="blog-item" data-category="musik" data-date="2026-09-12" data-title="Modulare Synthesizer & Sound Design" onclick="event.preventDefault();">
+                            <div class="blog-thumbnail-wrapper">
+                                <img src="https://placehold.co/200x200/444444/ffffff?text=Audio" alt="Blog Preview 4" loading="lazy">
+                            </div>
+                            <div class="blog-item-content">
+                                <span class="blog-date">12. SEPTEMBER 2026</span>
+                                <h3 class="blog-title">Modulare Synthesizer & Sound Design</h3>
+                                <p class="blog-snippet">Von der ersten Idee im Kopf bis zum fertigen Track. Ein Einstieg in die analoge Klangerzeugung.</p>
+                                <div class="blog-footer-row">
+                                    <span style="font-size: 0.6rem; font-weight:700; color:#888;">MUSIK</span>
+                                    <i class="fa-solid fa-arrow-right blog-arrow"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </section>
+
+            </main>
+
+        </div>
+
+        <footer class="site-footer">
+            <span>&copy; 2026 Daniel Melichar</span>
+            <span>Brutalist Single-Page Template</span>
+        </footer>
+
+    </div>
+
+    <!-- JAVASCRIPT: STABILE FILTER- & ANIMATIONSLOGIK -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const sortSelect = document.getElementById('sort-select');
+            const blogList = document.getElementById('blog-list');
+
+            function updateBlogDisplay() {
+                const activeFilter = document.querySelector('.filter-btn.active').getAttribute('data-filter');
+                const sortValue = sortSelect.value;
+                const items = Array.from(blogList.querySelectorAll('.blog-item'));
+
+                // 1. Alle aktuell sichtbaren Elemente ausblenden
+                items.forEach(item => {
+                    item.classList.add('is-hidden');
+                });
+
+                // 2. Nach der Ausblend-Animation (300ms) filtern & sortieren
+                setTimeout(() => {
+                    // Sortierung
+                    items.sort((a, b) => {
+                        const dateA = new Date(a.getAttribute('data-date'));
+                        const dateB = new Date(b.getAttribute('data-date'));
+                        const titleA = a.getAttribute('data-title').toLowerCase();
+                        const titleB = b.getAttribute('data-title').toLowerCase();
+
+                        if (sortValue === 'date-desc') return dateB - dateA;
+                        if (sortValue === 'date-asc') return dateA - dateB;
+                        if (sortValue === 'title-asc') return titleA.localeCompare(titleB);
+                        if (sortValue === 'title-desc') return titleB.localeCompare(titleA);
+                        return 0;
+                    });
+
+                    // DOM-Reihenfolge anpassen & Sichtbarkeit festlegen
+                    items.forEach(item => {
+                        blogList.appendChild(item);
+
+                        const category = item.getAttribute('data-category');
+                        if (activeFilter === 'all' || category === activeFilter) {
+                            item.classList.remove('hide');
+                        } else {
+                            item.classList.add('hide');
+                        }
+                    });
+
+                    // 3. Sichtbare Elemente wieder einfliegen lassen
+                    requestAnimationFrame(() => {
+                        items.forEach(item => {
+                            if (!item.classList.contains('hide')) {
+                                item.classList.remove('is-hidden');
+                            }
+                        });
+                    });
+
+                }, 300);
+            }
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    updateBlogDisplay();
+                });
+            });
+
+            sortSelect.addEventListener('change', updateBlogDisplay);
+
+            // SCROLLSPY
+            const sections = document.querySelectorAll('.content-section');
+            const navLi = document.querySelectorAll('.portfolio-nav ul li');
+
+            const observerOptions = {
+                root: null,
+                rootMargin: '-20% 0px -60% 0px',
+                threshold: 0
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const currentId = entry.target.getAttribute('id');
+                        
+                        navLi.forEach(li => {
+                            li.classList.remove('active');
+                            const link = li.querySelector('a');
+                            if (link && link.getAttribute('href') === `#${currentId}`) {
+                                li.classList.add('active');
+                            }
+                        });
+                    }
+                });
+            }, observerOptions);
+
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+        });
+    </script>
+</body>
+</html>
